@@ -1,0 +1,190 @@
+{
+  "tournaments": [
+    {
+      "id": "1",
+      "name": "College Football Cup",
+      "sport": "Football",
+      "venue": "Main Stadium",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-15",
+      "status": "Upcoming"
+    },
+    {
+      "name": "College Cricket League",
+      "sport": "Cricket",
+      "venue": "College Ground",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-25",
+      "status": "Upcoming",
+      "id": "2"
+    },
+    {
+      "name": "Volleyball League",
+      "sport": "Volleyball ",
+      "venue": "Main Stadium",
+      "startDate": "2026-11-29",
+      "endDate": "2026-12-06",
+      "status": "Upcoming",
+      "id": "3"
+    }
+  ],
+  "teams": [
+    {
+      "id": "1",
+      "name": "Thunder FC",
+      "tournamentId": "1",
+      "coach": "Ravi"
+    },
+    {
+      "id": "2",
+      "name": "Eagles FC",
+      "tournamentId": "1",
+      "coach": "Kiran"
+    },
+    {
+      "id": "3",
+      "name": "Warriors XI",
+      "tournamentId": "2",
+      "coach": "Arun"
+    },
+    {
+      "id": "4",
+      "name": "Champions XI",
+      "tournamentId": "2",
+      "coach": "Suresh"
+    }
+  ],
+  "players": [
+    {
+      "id": "1",
+      "name": "Arjun",
+      "age": 21,
+      "jerseyNumber": 10,
+      "position": "Forward",
+      "teamId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Rahul",
+      "age": 22,
+      "jerseyNumber": 7,
+      "position": "Midfielder",
+      "teamId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Vikram",
+      "age": 20,
+      "jerseyNumber": 5,
+      "position": "Defender",
+      "teamId": "2"
+    },
+    {
+      "id": "4",
+      "name": "Karthik",
+      "age": 21,
+      "jerseyNumber": 1,
+      "position": "Goalkeeper",
+      "teamId": "2"
+    },
+    {
+      "id": "5",
+      "name": "Sai",
+      "age": 22,
+      "jerseyNumber": 18,
+      "position": "Batsman",
+      "teamId": "3"
+    },
+    {
+      "id": "6",
+      "name": "Manoj",
+      "age": 21,
+      "jerseyNumber": 11,
+      "position": "Bowler",
+      "teamId": "3"
+    },
+    {
+      "id": "7",
+      "name": "Praveen",
+      "age": 20,
+      "jerseyNumber": 23,
+      "position": "All-rounder",
+      "teamId": "4"
+    },
+    {
+      "id": "8",
+      "name": "Naveen",
+      "age": 22,
+      "jerseyNumber": 4,
+      "position": "Wicketkeeper",
+      "teamId": "4"
+    }
+  ],
+  "matches": [
+    {
+      "tournamentId": "1",
+      "teamAId": "1",
+      "teamBId": "2",
+      "date": "2026-11-12",
+      "time": "16:00",
+      "venue": "Main Stadium",
+      "status": "Scheduled",
+      "scoreA": null,
+      "scoreB": null,
+      "winnerId": null,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "tournamentId": "1",
+      "teamAId": "2",
+      "teamBId": "1",
+      "date": "2026-11-13",
+      "time": "14:00",
+      "venue": "Main Stadium",
+      "status": "Scheduled",
+      "scoreA": null,
+      "scoreB": null,
+      "winnerId": null
+    },
+    {
+      "id": "3",
+      "tournamentId": "2",
+      "teamAId": "3",
+      "teamBId": "4",
+      "date": "2026-11-22",
+      "time": "10:00",
+      "venue": "College Ground",
+      "status": "Scheduled",
+      "scoreA": null,
+      "scoreB": null,
+      "winnerId": null
+    },
+    {
+      "id": "4",
+      "tournamentId": "2",
+      "teamAId": "4",
+      "teamBId": "3",
+      "date": "2026-11-23",
+      "time": "10:00",
+      "venue": "College Ground",
+      "status": "Scheduled",
+      "scoreA": null,
+      "scoreB": null,
+      "winnerId": null
+    },
+    {
+      "tournamentId": "1",
+      "teamAId": "1",
+      "teamBId": "2",
+      "date": "2026-10-12",
+      "time": "16:00",
+      "venue": "Main Stadium",
+      "status": "Completed",
+      "scoreA": 4,
+      "scoreB": 2,
+      "winnerId": "1",
+      "id": "3"
+    }
+  ]
+}
